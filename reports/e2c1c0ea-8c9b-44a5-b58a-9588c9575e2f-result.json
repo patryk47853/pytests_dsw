@@ -1,0 +1,77 @@
+{
+  "name": "Create a new user -- @1.1 ",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError\n",
+    "trace": "  File \"/Users/Patryk/Documents/pytests/.venv/Lib/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/Patryk/Documents/pytests/.venv/Lib/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/users.py\", line 35, in step_impl\n    assert response.status_code == 200\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"
+  },
+  "steps": [
+    {
+      "name": "Given I am in super APP",
+      "status": "passed",
+      "start": 1719360000625,
+      "stop": 1719360000625
+    },
+    {
+      "name": "When User is created with name:patryk job:student",
+      "status": "passed",
+      "start": 1719360000625,
+      "stop": 1719360000820
+    },
+    {
+      "name": "Then Created user exists in the system",
+      "status": "failed",
+      "statusDetails": {
+        "message": "AssertionError\n",
+        "trace": "  File \"/Users/Patryk/Documents/pytests/.venv/Lib/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/Patryk/Documents/pytests/.venv/Lib/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/users.py\", line 35, in step_impl\n    assert response.status_code == 200\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"
+      },
+      "start": 1719360000820,
+      "stop": 1719360001121
+    },
+    {
+      "name": "And User name is patryk",
+      "status": "skipped",
+      "start": 1719360001125,
+      "stop": 1719360001125
+    },
+    {
+      "name": "And User job is student",
+      "status": "skipped",
+      "start": 1719360001125,
+      "stop": 1719360001125
+    }
+  ],
+  "parameters": [
+    {
+      "name": "name",
+      "value": "patryk"
+    },
+    {
+      "name": "job",
+      "value": "student"
+    }
+  ],
+  "start": 1719360000621,
+  "stop": 1719360001125,
+  "uuid": "e2c1c0ea-8c9b-44a5-b58a-9588c9575e2f",
+  "historyId": "f5c0f9f0e8a245739d83507f9b9c8b3d",
+  "fullName": "Users: Create a new user",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "Users"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "User login -- @1.1 ",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Given I log in super APP",
+      "status": "passed",
+      "start": 1719360000000,
+      "stop": 1719360000000
+    },
+    {
+      "name": "When User logs in with email:eve.holt@reqres.in password:pistol",
+      "status": "passed",
+      "start": 1719360000000,
+      "stop": 1719360000410
+    },
+    {
+      "name": "Then User is successfully logged in",
+      "status": "passed",
+      "start": 1719360000410,
+      "stop": 1719360000410
+    },
+    {
+      "name": "And Login token is returned",
+      "status": "passed",
+      "start": 1719360000410,
+      "stop": 1719360000410
+    }
+  ],
+  "parameters": [
+    {
+      "name": "email",
+      "value": "eve.holt@reqres.in"
+    },
+    {
+      "name": "password",
+      "value": "pistol"
+    }
+  ],
+  "start": 1719360000000,
+  "stop": 1719360000410,
+  "uuid": "d1e42c74-b1c8-4e70-a927-57d7d9a3a045",
+  "historyId": "b9f5c324b54d7c098f7e0a90e85a96f8",
+  "fullName": "Login: User login",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "Login"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}

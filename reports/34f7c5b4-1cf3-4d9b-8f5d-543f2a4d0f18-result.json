@@ -1,0 +1,63 @@
+{
+  "name": "Register a new user -- @1.1 ",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Given I sign in super APP",
+      "status": "passed",
+      "start": 1719360000415,
+      "stop": 1719360000415
+    },
+    {
+      "name": "When User is registered with email:eve.holt@reqres.in password:pistol",
+      "status": "passed",
+      "start": 1719360000415,
+      "stop": 1719360000613
+    },
+    {
+      "name": "Then Registration is successful",
+      "status": "passed",
+      "start": 1719360000613,
+      "stop": 1719360000613
+    },
+    {
+      "name": "And User token is not empty",
+      "status": "passed",
+      "start": 1719360000613,
+      "stop": 1719360000613
+    }
+  ],
+  "parameters": [
+    {
+      "name": "email",
+      "value": "eve.holt@reqres.in"
+    },
+    {
+      "name": "password",
+      "value": "pistol"
+    }
+  ],
+  "start": 1719360000410,
+  "stop": 1719360000619,
+  "uuid": "34f7c5b4-1cf3-4d9b-8f5d-543f2a4d0f18",
+  "historyId": "e0d36a747b1e4b76a4f5e8e47c1f5e6a",
+  "fullName": "User Registration: Register a new user",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "User Registration"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}
